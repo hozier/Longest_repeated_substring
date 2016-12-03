@@ -1,4 +1,4 @@
-tar -zcvf Longest_repeated_substring-master.tar.gz submission
+tar -zcvf submission.tar.gz Longest_repeated_substring-master
 gunzip submission.tar.gz
 mkdir submission
 mv submission.tar submission/
