@@ -3,4 +3,4 @@ default: compile
 compile:
 
 run:
-	node substring.js
+	node lrs.js
