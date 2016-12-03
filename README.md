@@ -41,3 +41,8 @@ LRS( s ) :=
 The time complexity to walk through all suffixes in our suffix array is linear. The time complexity to build the suffix array is O(n^2(logn)) if we consider an O(nlogn) algorithm used for sorting. The sorting step itself takes O(n^2(logn)) time as every comparison is a comparison of two strings and the comparison takes O(n) time. Therefore, the algorithm’s time complexity is O(n^2), or simply O(n^2).
 
 Author: Philron Hozier
+=======
+# LRS algorithm
+Time complexity: O(n^2)
+
+returns the (computed) longest repeated substring to stdout
